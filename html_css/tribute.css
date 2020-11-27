@@ -1,0 +1,44 @@
+#main{
+    padding:10px;
+    margin:30px;
+    border-radius: 10px;
+}
+body{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: darkcyan;
+}
+h1{
+    font-size: 4rem;
+}
+#img-div{
+    padding:10px;
+    background-color: white;
+}
+figure{
+    display: block;    
+}
+img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#img-caption{
+    padding: 15px 0 5px 0;
+}
+#headline{
+    margin:50px 0;
+    text-align: center;
+}
+ul{
+    margin: 0 auto 50px auto;
+    text-align: left;
+    max-width: 50%;
+}
+#main p{
+    font-style: italic;
+}
