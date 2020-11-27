@@ -2,6 +2,7 @@
     padding:10px;
     margin:30px;
     border-radius: 10px;
+    background-color: teal;
 }
 body{
     display: block;
@@ -9,17 +10,30 @@ body{
     font-size: 2rem;
     line-height: 1.5;
     text-align: center;
-    background-color: darkcyan;
+    background-color: white;
 }
 h1{
     font-size: 4rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+h3 {
+     background-color: cyan;
+     border-radius: 10px;
+     margin: 0px auto;
+     padding: 0px auto;
+}
+#subtitle{
+    color: darkgray;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 #img-div{
     padding:10px;
     background-color: white;
 }
 figure{
-    display: block;    
+    display: block;   
 }
 img{
     display: block;
