@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="survey.css">
+        
+        <title>
+Survey page
+        </title>
+    </head>
+    <body>
+        <main>
+            <div class="title-form">
+                <h1 id="title">
+                    Epic Food Survey
+                </h1>
+                <p id="description">
+                    Help us decide what kind of food is the epic food.
+                </p>
+            </div >
+            <form action="" id="survey-form">
+                <div class="form-field">
+                    <label id="name-label" for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="enter your name here" required>
+                </div>
+                <div class="form-field">
+                    <label id="email-label" for="email">Email</label>
+                    <input type="email" name="email"id="email" placeholder="enter your email here" required>
+                </div>
+                <div class="form-field">
+                    <label id="number-label" for="number">Age(optional)</label>
+                    <input type="number" name="number" min="1" max="120" id="number" placeholder="enter your age here">     
+                </div>
+                <div class="form-field">
+                <label for="dropdown">What kind of person are you</label>
+                    <select type="dropdown" name="dropdown" id="dropdown">
+                        <option disabled selected value>select your favourite taste</option>
+                        <option>sweet</option>
+                        <option>sour</option>
+                        <option>bitter</option>
+                        <option>hot</option>
+                    </select>
+                </div>                
+                <div class="form-field">
+                    <p>what kind of food do you like?</p>
+                    <label>
+                        <input type="radio" name="food-pref" value="spaghetti" class="radio" checked>
+                        spaghetti
+                    </label>
+                    <label>
+                        <input type="radio" name="food-pref" value="sushi" class="radio">
+                        sushi
+                    </label>
+                    <label>
+                        <input type="radio" name="food-pref" value="vegetarian" class="radio">
+                        vegetarian
+                    </label>
+                    <label>
+                        <input type="radio" name="food-pref" value="other" class="radio">
+                        other
+                    </label>
+                </div>
+                <div class="form-field">
+                    <p>what additions do you add?</p>
+                    <label>
+                        <input type="checkbox" name="additions" value="ketchup" class="checkbox">
+                        ketchup
+                    </label>
+                    <label>
+                        <input type="checkbox" name="additions" value="mayo" class="checkbox">
+                        mayo
+                    </label>
+                    <label>
+                        <input type="checkbox" name="additions" value="salt" class="checkbox">
+                        salt
+                    </label>
+                </div>
+                <div class="form-field">
+                    <p>Additional comments</p>
+                    <textarea name="textarea" id="textarea" placeholder="Enter your additional comments here!"></textarea>
+                </div>
+                <div class="form-field">
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+
+            </form>
+        </main>
+    </body>
+</html>
