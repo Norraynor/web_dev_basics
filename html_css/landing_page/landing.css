@@ -99,6 +99,7 @@ h2{
 #price{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 #price div{
     padding: 10px;
