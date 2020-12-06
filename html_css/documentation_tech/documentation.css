@@ -1,0 +1,13 @@
+#navbar{
+    position: fixed;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+#navbar a{
+    text-decoration: none;
+}
+#main{
+}
