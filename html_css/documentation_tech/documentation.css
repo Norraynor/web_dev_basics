@@ -78,8 +78,8 @@ body{
     padding-bottom: 0;
 }
 
-@media (max-width: 400px){
-    #main{
-        font-size: 10px;
+@media (max-width: 500px){
+    p{
+        font-size: 5px;
     }
 }
