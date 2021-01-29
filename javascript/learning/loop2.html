@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <div>
+    <p class="admitted">
+
+    </p>
+    <p class="refused">
+
+    </p>
+  </div>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Loop 2st excercise - Guest list");
+
+    const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+    const admitted = document.querySelector('.admitted');
+    const refused = document.querySelector('.refused');
+    admitted.textContent = 'Admit: ';
+    refused.textContent = 'Refuse: '
+
+    for (let i = 0; i < people.length; i++) {
+      if (people[i]==="Phil" || people[i]==="Lola") {
+        refused.textContent += people[i] +", ";
+      }
+      else{
+        admitted.textContent += people[i] +", ";
+      }      
+    }
+    admitted.textContent =admitted.textContent.slice(0, admitted.textContent.length-2) + ".";
+    refused.textContent =refused.textContent.slice(0, refused.textContent.length-2) + ".";
+
+    // let i = 0;
+
+    // refused.textContent += ;
+    // admitted.textContent += ;
+
+  </script>
+</body>
+</html>

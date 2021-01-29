@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  
+  <main>
+    <div class="output">
+  
+    </div>
+  </main>
+  <script>
+    // Your JavaScript goes here!
+    console.log("Loop 1st excercise - Countdown from 10")
+    let output = document.querySelector('.output');
+
+    // let i = 10;
+
+    // const para = document.createElement('p');
+    // para.textContent = ;
+    // output.appendChild(para);
+
+    for (let i = 10; i >= 0; i--) {      
+      const para = document.createElement('p');
+      if (i===0) {
+        para.textContent = "Blast off!";
+      }
+      else if(i===10){
+        para.textContent = "Countdown" + i;
+      }
+      else{
+        para.textContent = i;
+      }
+      output.appendChild(para);
+      
+    }
+  </script>
+</body>
+</html>

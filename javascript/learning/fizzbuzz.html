@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    console.log("FizzBuzz!")
+
+    // user inputs how many numbers to print out
+    let answer = parseInt(prompt("Please enter a number:"));
+    //increase numbers to user input and check them
+    for (let i = 1; i <= answer; i++){
+      if(i%3===0 && i%5===0){
+        console.log("FizzBuzz");
+      }
+      else if (i%3===0) {
+        console.log("Fizz");
+      }
+      else if(i%5 === 0){
+        console.log("Buzz");
+      }
+      else{
+        console.log(i);
+      }
+    }
+
+  </script>
+</body>
+</html>
