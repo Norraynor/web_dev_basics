@@ -38,3 +38,30 @@ div.style.borderColor = "black";
 div.style.borderWidth = "10px";
 
 container.appendChild(div);
+
+// the JavaScript file
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello World");
+
+// the JavaScript file
+const btn_better = document.querySelector('#btn-better');
+btn_better.addEventListener('click', () => {
+  alert("Hello World");
+});
+
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+  }
+
+// METHOD 2
+const btnn = document.querySelector("#btnn");
+btnn.onclick = alertFunction;
+
+// METHOD 3
+const btnnn = document.querySelector("#btnnn");
+btnnn.addEventListener('click', alertFunction);
+
+const btn_callback = document.querySelector("#btn-callback");
+btn_callback.addEventListener('click', function (e) {
+    e.target.style.backgroundColor = "blue";
+  });
